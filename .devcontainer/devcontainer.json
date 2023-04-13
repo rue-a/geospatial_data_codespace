@@ -5,11 +5,11 @@
     },
     "waitFor": "onCreateCommand",
     "updateContentCommand": "python3 -m pip install -r requirements.txt",
-    "postCreateCommand": "",
+    "postCreateCommand": "code . --wait --goto README.md",
     "customizations": {
         "codespaces": {
             "openFiles": [
-                "notebooks/plot_graffitti_areas.ipynb"
+                "README.md"
             ]
         },
         "vscode": {
