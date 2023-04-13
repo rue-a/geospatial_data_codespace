@@ -5,7 +5,6 @@
     },
     "waitFor": "onCreateCommand",
     "updateContentCommand": "python3 -m pip install -r requirements.txt",
-    "postCreateCommand": "code . --wait --goto README.md",
     "customizations": {
         "codespaces": {
             "openFiles": [
@@ -19,7 +18,12 @@
                 "mechatroner.rainbow-csv",
                 "vscode-icons-team.vscode-icons",
                 "ban.spellright"
-            ]
+            ],
+            "settings": {
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                }
+            }
         }
     }
 }
