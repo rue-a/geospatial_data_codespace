@@ -8,12 +8,17 @@
     "postCreateCommand": "",
     "customizations": {
         "codespaces": {
-            "openFiles": []
+            "openFiles": [
+                "notebooks/plot_graffitti_areas.ipynb"
+            ]
         },
         "vscode": {
             "extensions": [
                 "ms-toolsai.jupyter",
-                "ms-python.python"
+                "ms-python.python",
+                "mechatroner.rainbow-csv",
+                "vscode-icons-team.vscode-icons",
+                "ban.spellright"
             ]
         }
     }
