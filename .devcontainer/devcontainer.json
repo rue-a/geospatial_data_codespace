@@ -5,18 +5,16 @@
     },
     "waitFor": "onCreateCommand",
     "updateContentCommand": "python3 -m pip install -r requirements.txt",
+    "postStartCommand": "code README.md",
     "customizations": {
         "codespaces": {
-            "openFiles": [
-                "README.md"
-            ]
+            "openFiles": []
         },
         "vscode": {
             "extensions": [
                 "ms-toolsai.jupyter",
                 "ms-python.python",
                 "mechatroner.rainbow-csv",
-                "vscode-icons-team.vscode-icons",
                 "ban.spellright"
             ],
             "settings": {
