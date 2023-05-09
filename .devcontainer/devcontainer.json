@@ -16,6 +16,7 @@
                 "ms-toolsai.jupyter",
                 "ms-python.python",
                 "mechatroner.rainbow-csv",
+                "janisdd.vscode-edit-csv",
                 "ban.spellright"
             ],
             "settings": {}
