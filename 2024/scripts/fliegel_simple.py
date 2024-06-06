@@ -31,6 +31,8 @@ nlp = spacy.load("en_core_web_sm")
 # CARDINAL:    Numerals that do not fall under another type.
 # ------------------------------------------------------------------
 
+
+# %%
 """
 - use natural language processing to find places in the 
 first 100 entries of the fliegel index
@@ -191,8 +193,8 @@ count_gdf = gpd.GeoDataFrame(count_gdf)
 count_gdf.explore(
     # column="count",
     style_kwds={
-        "style_function": lambda x: {
-            "radius": math.sqrt((x["properties"]["count"])) + 3
+        "style_function": lambda record: {
+            "radius": math.sqrt((record["properties"]["count"])) + 3
         }
     },
 )
