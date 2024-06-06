@@ -177,7 +177,7 @@ gazetteer_gdf = gpd.read_file("../data/fliegel_gazetteer.csv")
 gazetteer_gdf["geometry"] = gpd.points_from_xy(
     gazetteer_gdf["longitude"], gazetteer_gdf["latitude"]
 )
-gazetteer_gdf.crs = crs = "EPSG:4326"
+gazetteer_gdf.crs = "EPSG:4326"
 
 # Merge count_gdf with gazetteer_gdf on the 'place' column
 count_gdf = count_gdf.merge(gazetteer_gdf, left_on="place", right_on="place_name")
