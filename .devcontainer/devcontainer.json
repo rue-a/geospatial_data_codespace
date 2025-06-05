@@ -26,7 +26,7 @@
                         "fileMatch": [
                             "2025/exercise/*.geojson"
                         ],
-                        "url": "https://gist.githubusercontent.com/rue-a/6f0193808229c68cca6bc77c548e87c0/raw/fda74437588355d920d315dfa3bd34e6ce91b253/isgv_geojson.schema.json"
+                        "url": "https://raw.githubusercontent.com/rue-a/geospatial_data_codespace/refs/heads/master/2025/schema/isgv.schema.json"
                     }
                 ]
             }
