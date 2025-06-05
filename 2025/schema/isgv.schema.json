@@ -99,17 +99,12 @@
                             "currentAffiliation": {
                                 "type": "object",
                                 "properties": {
-                                    "country": {
+                                    "description": {
                                         "type": "string"
                                     },
-                                    "state": {
-                                        "type": "string"
-                                    },
-                                    "district": {
-                                        "type": "string"
-                                    },
-                                    "nuts": {
-                                        "type": "string"
+                                    "affiliation-id": {
+                                        "type": "string",
+                                        "description": "e.g. NUTS"
                                     }
                                 }
                             },

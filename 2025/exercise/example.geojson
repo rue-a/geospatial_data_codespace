@@ -7,10 +7,19 @@
             "geometry": {
                 "coordinates": [
                     13.4702,
-                    51.1613,
-                    21
+                    51.1613
                 ],
                 "type": "Point"
+            }
+            "properties": {
+                "preferredName": {
+                    "label": "Meißen",
+                    "language": "de"
+                },
+                "currentAffiliation": {
+                    "country": "Germany",
+                    "state": "Saxony"
+                }
             }
         }
     ]
