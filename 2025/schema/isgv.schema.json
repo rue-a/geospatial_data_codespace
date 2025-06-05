@@ -1,0 +1,246 @@
+{
+    "title": "Historical Place Feature",
+    "type": "object",
+    "required": [
+        "type",
+        "features"
+    ],
+    "properties": {
+        "type": {
+            "const": "FeatureCollection"
+        },
+        "features": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "type",
+                    "id",
+                    "properties",
+                    "geometry"
+                ],
+                "properties": {
+                    "type": {
+                        "const": "Feature"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "properties": {
+                        "type": "object",
+                        "required": [
+                            "preferredName",
+                            "currentAffiliation",
+                            "placeType"
+                        ],
+                        "properties": {
+                            "preferredName": {
+                                "type": "object",
+                                "required": [
+                                    "label"
+                                ],
+                                "properties": {
+                                    "label": {
+                                        "type": "string"
+                                    },
+                                    "language": {
+                                        "type": "string"
+                                    },
+                                    "validFrom": {
+                                        "type": "string",
+                                        "format": "date"
+                                    },
+                                    "validTo": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ],
+                                        "format": "date"
+                                    },
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "nameVariants": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "required": [
+                                        "label"
+                                    ],
+                                    "properties": {
+                                        "label": {
+                                            "type": "string"
+                                        },
+                                        "language": {
+                                            "type": "string"
+                                        },
+                                        "validFrom": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "format": "date"
+                                        },
+                                        "validTo": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "format": "date"
+                                        },
+                                        "type": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "currentAffiliation": {
+                                "type": "object",
+                                "properties": {
+                                    "country": {
+                                        "type": "string"
+                                    },
+                                    "state": {
+                                        "type": "string"
+                                    },
+                                    "district": {
+                                        "type": "string"
+                                    },
+                                    "nuts": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "historicalAffiliations": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "label": {
+                                            "type": "string"
+                                        },
+                                        "validFrom": {
+                                            "type": "string",
+                                            "format": "date"
+                                        },
+                                        "validTo": {
+                                            "type": "string",
+                                            "format": "date"
+                                        }
+                                    }
+                                }
+                            },
+                            "placeType": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "label": {
+                                            "type": "string"
+                                        },
+                                        "validFrom": {
+                                            "type": "string",
+                                            "format": "date"
+                                        },
+                                        "validTo": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "format": "date"
+                                        }
+                                    }
+                                }
+                            },
+                            "events": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "required": [
+                                        "type",
+                                        "date"
+                                    ],
+                                    "properties": {
+                                        "type": {
+                                            "type": "string"
+                                        },
+                                        "date": {
+                                            "type": "string",
+                                            "format": "date"
+                                        },
+                                        "description": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "externalReferences": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "required": [
+                                        "system",
+                                        "id"
+                                    ],
+                                    "properties": {
+                                        "system": {
+                                            "type": "string"
+                                        },
+                                        "id": {
+                                            "type": "string"
+                                        },
+                                        "uri": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        "matchType": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "source": {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            "metadata": {
+                                "type": "object",
+                                "properties": {
+                                    "createdBy": {
+                                        "type": "string"
+                                    },
+                                    "createdAt": {
+                                        "type": "string",
+                                        "format": "date"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "geometry": {
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "coordinates"
+                        ],
+                        "properties": {
+                            "type": {
+                                "const": "Point"
+                            },
+                            "coordinates": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number"
+                                },
+                                "minItems": 2,
+                                "maxItems": 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

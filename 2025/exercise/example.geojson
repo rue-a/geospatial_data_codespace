@@ -1,0 +1,17 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "meissen",
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    13.4702,
+                    51.1613,
+                    21
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
