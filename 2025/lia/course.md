@@ -186,7 +186,7 @@ Ein Vektorgeodatenobjekt, also der Zusammenschluss von Geometrie und Attributen,
 </div>
 <div style="flex: 6;">
 
-![Vektortypen](fig/dc-spatial-vector/pnt_line_poly.png)
+![Vektortypen](fig/pnt_line_poly.png)
 
 *Abbildung: Punkte, Linien und Polygone (Quelle: National Ecological Observatory Network, NEON)*
 </div>
