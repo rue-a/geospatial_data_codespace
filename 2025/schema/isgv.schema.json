@@ -1,5 +1,5 @@
 {
-    "title": "Historical Place Feature",
+    "title": "Historical Place Features",
     "type": "object",
     "required": [
         "type",
@@ -129,110 +129,147 @@
                                 }
                             },
                             "placeType": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "properties": {
-                                        "label": {
-                                            "type": "string"
-                                        },
-                                        "validFrom": {
-                                            "type": "string",
-                                            "format": "date"
-                                        },
-                                        "validTo": {
-                                            "type": [
-                                                "string",
-                                                "null"
-                                            ],
-                                            "format": "date"
-                                        }
-                                    }
-                                }
-                            },
-                            "events": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "required": [
-                                        "type",
-                                        "date"
-                                    ],
-                                    "properties": {
-                                        "type": {
-                                            "type": "string"
-                                        },
-                                        "date": {
-                                            "type": "string",
-                                            "format": "date"
-                                        },
-                                        "description": {
-                                            "type": "string"
-                                        }
-                                    }
-                                }
-                            },
-                            "externalReferences": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "required": [
-                                        "system",
-                                        "id"
-                                    ],
-                                    "properties": {
-                                        "system": {
-                                            "type": "string"
-                                        },
-                                        "id": {
-                                            "type": "string"
-                                        },
-                                        "uri": {
-                                            "type": "string",
-                                            "format": "uri"
-                                        },
-                                        "matchType": {
-                                            "type": "string"
-                                        }
-                                    }
-                                }
-                            },
-                            "source": {
                                 "type": "string",
-                                "format": "uri"
-                            },
-                            "metadata": {
+                                "title": "Place Type",
+                                "description": "Linked Places Format term describing the type of place.",
+                                "oneOf": [
+                                    {
+                                        "const": "inhabited place",
+                                        "description": "General term for places or areas occupied, modified, or planned to be inhabited by communities of human populations and that contain enough societal functions to be relatively self-sufficient."
+                                    },
+                                    {
+                                        "const": "city",
+                                        "description": "Generally, cities designate large or important communities with population, status, and internal complexity greater than most towns in the region."
+                                    },
+                                    {
+                                        "const": "town",
+                                        "description": "Towns generally are units of compact settlement larger than villages and less important and internally complex than cities in the region."
+                                    },
+                                    {
+                                        "const": "village",
+                                        "description": "Villages generally designate units of compact settlement, varying in size but usually larger than hamlets and smaller than towns and distinguished from the surrounding rural territory."
+                                    },
+                                    {
+                                        "const": "port",
+                                        "description": "Settlement areas possessing a harbor and terminal facilities used for loading or unloading, or water transportation. By extension, also used for areas facilitating air transportation."
+                                    },
+                                    {
+                                        "const": "religious center",
+                                        "description": "Communities of any size that are centers for religious activity."
+                                    },
+                                    {
+                                        "const": "lost settlement",
+                                        "description": "Settlements of any size for which precise locations are no longer known or, if the general location is known, factual information about the settlement is scarce."
+                                    },
+                                    {
+                                        "const": "leper colony",
+                                        "description": "Settlements used for the isolation and treatment of people with leprosy, historically used to prevent the spread of the disease."
+                                    },
+                                    {
+                                        "const": "ruined settlement",
+                                        "description": "Abandoned or destroyed settlements with remains still visible; may overlap with deserted or lost settlements."
+                                    },
+                                    {
+                                        "const": "deserted settlement",
+                                        "description": "Settlements of any size that are no longer inhabited, whether in ruins or with intact buildings."
+                                    },
+                                    {
+                                        "const": "penal settlement",
+                                        "description": "Settlements established for the purpose of containing prisoners or other detainees and punishing them through forced labor, whether overseas or within the boundaries of the founding state."
+                                    },
+                                    {
+                                        "const": "native peoples reservation",
+                                        "description": "Tracts of land set aside by a government for aboriginal, tribal, or native populations."
+                                    },
+                                    {
+                                        "const": "community",
+                                        "description": "Groups or bodies of people who live in the same place and are usually united by a common way of life, cultural or ethnic identity, or other factors."
+                                    }
+                                ]
+                            }
+                        },
+                        "events": {
+                            "type": "array",
+                            "items": {
                                 "type": "object",
+                                "required": [
+                                    "type",
+                                    "date"
+                                ],
                                 "properties": {
-                                    "createdBy": {
+                                    "type": {
                                         "type": "string"
                                     },
-                                    "createdAt": {
+                                    "date": {
                                         "type": "string",
                                         "format": "date"
+                                    },
+                                    "description": {
+                                        "type": "string"
                                     }
+                                }
+                            }
+                        },
+                        "externalReferences": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "required": [
+                                    "system",
+                                    "id"
+                                ],
+                                "properties": {
+                                    "system": {
+                                        "type": "string"
+                                    },
+                                    "id": {
+                                        "type": "string"
+                                    },
+                                    "uri": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "matchType": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "source": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "metadata": {
+                            "type": "object",
+                            "properties": {
+                                "createdBy": {
+                                    "type": "string"
+                                },
+                                "createdAt": {
+                                    "type": "string",
+                                    "format": "date"
                                 }
                             }
                         }
-                    },
-                    "geometry": {
-                        "type": "object",
-                        "required": [
-                            "type",
-                            "coordinates"
-                        ],
-                        "properties": {
-                            "type": {
-                                "const": "Point"
+                    }
+                },
+                "geometry": {
+                    "type": "object",
+                    "required": [
+                        "type",
+                        "coordinates"
+                    ],
+                    "properties": {
+                        "type": {
+                            "const": "Point"
+                        },
+                        "coordinates": {
+                            "type": "array",
+                            "items": {
+                                "type": "number"
                             },
-                            "coordinates": {
-                                "type": "array",
-                                "items": {
-                                    "type": "number"
-                                },
-                                "minItems": 2,
-                                "maxItems": 2
-                            }
+                            "minItems": 2,
+                            "maxItems": 2
                         }
                     }
                 }

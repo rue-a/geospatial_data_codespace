@@ -1,4 +1,5 @@
 {
+    "$schema": "../schema/isgv.schema.json",
     "type": "FeatureCollection",
     "features": [
         {
@@ -20,10 +21,16 @@
                     "affiliation-id": "DED2E",
                     "affiliation": "Landkreis Meißen / Distrikt Dresden / Bundesland Sachsen / Staat Deutschland"
                 },
-                "placeType": [
+                "placeType": "town",
+                "historicalAffiliations": [
                     {
-                        "label": "City"
+                        "label": "Bistum Meißen",
+                        "validTo": "1581-10-20",
+                        "validFrom": "968"
                     }
+                ],
+                "nameVariants": [
+                    "Meissen"
                 ]
             }
         }

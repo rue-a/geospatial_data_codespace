@@ -20,16 +20,7 @@
                 "ban.spellright",
                 "swallow.geojson-io-for-vscode"
             ],
-            "settings": {
-                "json.schemas": [
-                    {
-                        "fileMatch": [
-                            "2025/exercise/*.geojson"
-                        ],
-                        "url": "https://raw.githubusercontent.com/rue-a/geospatial_data_codespace/refs/heads/master/2025/schema/isgv.schema.json"
-                    }
-                ]
-            }
+            "settings": {}
         }
     }
 }
