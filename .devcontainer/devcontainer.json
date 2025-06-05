@@ -17,9 +17,19 @@
                 "ms-python.python",
                 "mechatroner.rainbow-csv",
                 "janisdd.vscode-edit-csv",
-                "ban.spellright"
+                "ban.spellright",
+                "swallow.geojson-io-for-vscode"
             ],
-            "settings": {}
+            "settings": {
+                "json.schemas": [
+                    {
+                        "fileMatch": [
+                            "2025/reise/*.geojson"
+                        ],
+                        "url": "https://gist.githubusercontent.com/rue-a/6f0193808229c68cca6bc77c548e87c0/raw/fda74437588355d920d315dfa3bd34e6ce91b253/isgv_geojson.schema.json"
+                    }
+                ]
+            }
         }
     }
 }

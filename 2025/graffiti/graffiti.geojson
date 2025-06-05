@@ -1,0 +1,300 @@
+{
+    "type": "FeatureCollection",
+    "links": [
+        {
+            "href": "https://www.cardogis.com/WFS3Server#items",
+            "rel": "serviceDocumentation",
+            "type": "text/html",
+            "title": "Beschreibung der Dienste-Implementierung"
+        }
+    ],
+    "timeStamp": "2025-06-04T18:31:26.7842496Z",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.789319214280354,
+                    51.12375064433515
+                ]
+            },
+            "id": 9,
+            "properties": {
+                "einrichtung": "Skatepark Klotzsche",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": "Siebdruckplatten in der Zaunanlage; aktuell ist kein Spraydosencontainer vorhanden",
+                "groesse": "35 m²",
+                "adresse": "Binzer Weg/Alexander-Herzen-Straße 64a,Binze",
+                "plz": "01109",
+                "fon": null,
+                "e_mail": "kriminalpraeventiver-rat@dresden.de",
+                "url": null,
+                "ds_modified": "03.04.2025 14:55:24"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.78915183849404,
+                    51.00644940512525
+                ]
+            },
+            "id": 4,
+            "properties": {
+                "einrichtung": "Jugendhaus Game",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": null,
+                "groesse": "ca. 120 m²",
+                "adresse": "Gamigstraße 32",
+                "plz": "01239",
+                "fon": "0351-2845842, mobil: 0151/50553674",
+                "e_mail": "game@mobsued.de",
+                "url": "www.graffiti-dresden.de",
+                "ds_modified": "05.05.2025 11:50:57"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.770786841693383,
+                    51.01358880482775
+                ]
+            },
+            "id": 1,
+            "properties": {
+                "einrichtung": "Jugendspielplatz",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": "Die Wände auf dem Schulhof und der Turnhalle gehören nicht zum Legal Plain. Das bedeutet, dass diese Wände nicht besprüht werden dürfen. Außerdem wird dieser Bereich kameraüberwacht. Alle anderen Flächen des Legal Plain können genutzt werden.",
+                "groesse": "ca. 500 m²",
+                "adresse": "Karl-Laux-Straße 5",
+                "plz": "01219",
+                "fon": null,
+                "e_mail": null,
+                "url": "www.graffiti-dresden.de",
+                "ds_modified": "05.05.2025 13:46:36"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.751610284370594,
+                    51.06650129008228
+                ]
+            },
+            "id": 3,
+            "properties": {
+                "einrichtung": "Scheune",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": "Aufgang zur Scheune",
+                "groesse": "ca. 50 m²",
+                "adresse": "Alaunstraße 36/40",
+                "plz": "01099",
+                "fon": null,
+                "e_mail": null,
+                "url": "www.graffiti-dresden.de",
+                "ds_modified": "05.05.2025 13:46:36"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.69039426365551,
+                    51.07735466056708
+                ]
+            },
+            "id": 2,
+            "properties": {
+                "einrichtung": "Flutrinne",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": "Brücke unterhalb Hornbach",
+                "groesse": "ca. 700 m²",
+                "adresse": "Washingtonstraße",
+                "plz": "01139",
+                "fon": "0351-2818084",
+                "e_mail": "kontakt@spikedresden.de",
+                "url": "www.graffiti-dresden.de",
+                "ds_modified": "05.05.2025 13:46:36"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.77973714403823,
+                    51.01799378954655
+                ]
+            },
+            "id": 11,
+            "properties": {
+                "einrichtung": "Spike  Dresden e. V.",
+                "traeger": null,
+                "bemerkung": null,
+                "groesse": null,
+                "adresse": "Otto-Dix-Ring 100",
+                "plz": "01219",
+                "fon": null,
+                "e_mail": null,
+                "url": null,
+                "ds_modified": "05.05.2025 13:52:17"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.80979281144124,
+                    51.02844264366925
+                ]
+            },
+            "id": 5,
+            "properties": {
+                "einrichtung": "Skatepark Tolkewitz",
+                "traeger": "privat",
+                "bemerkung": "3 Wände an der Rad- und Skateranlage, Ecke Marienberger/Altenberger Straße in Dresden-Seidnitz",
+                "groesse": "ca. 20 m²",
+                "adresse": "Marienberger/Altenberger Straße",
+                "plz": "01279",
+                "fon": null,
+                "e_mail": null,
+                "url": "www.graffiti-dresden.de",
+                "ds_modified": "05.05.2025 13:58:07"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.728050536248421,
+                    51.07078955781423
+                ]
+            },
+            "id": 7,
+            "properties": {
+                "einrichtung": "Graffitipark \"Puschkinplatz\"",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": "6 beidseitig nutzbare Sprayflächen",
+                "groesse": "ca. 200 m²",
+                "adresse": "Leipziger /Eisenberger Straße",
+                "plz": "01127",
+                "fon": "0351-2818084",
+                "e_mail": "kontakt@spikedresden.de",
+                "url": "www.graffiti-dresden.de",
+                "ds_modified": "05.05.2025 13:58:07"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [
+                    13.754639626999182,
+                    51.07068367409588
+                ]
+            },
+            "id": 10,
+            "properties": {
+                "einrichtung": "Alaunpark",
+                "traeger": "Landeshauptstadt Dresden",
+                "bemerkung": null,
+                "groesse": null,
+                "adresse": "Alaunpark",
+                "plz": "01099",
+                "fon": null,
+                "e_mail": null,
+                "url": null,
+                "ds_modified": "22.05.2025 14:51:44"
+            }
+        },
+        {
+            "id": "XqcjOT3FXFUg6louwOEcncmUbF9oCKhw",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    13.7686353389401,
+                    51.081848591967656
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "id": "eY0Lyw9MvvtDvTPKkyz9nPhRpFmE9Ej9",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "coordinates": [
+                    13.679806926029869,
+                    51.05777481720557
+                ],
+                "type": "Point"
+            }
+        }
+    ],
+    "numberReturned": 9
+}
