@@ -1,5 +1,5 @@
 geopandas==0.12.2
-shapely==2.0.1
+shapely==2.0.2
 folium==0.14.0
 matplotlib==3.6.3
 mapclassify==2.5.0
