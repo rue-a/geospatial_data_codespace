@@ -99,12 +99,13 @@
                             "currentAffiliation": {
                                 "type": "object",
                                 "properties": {
-                                    "description": {
-                                        "type": "string"
+                                    "affiliation": {
+                                        "type": "string",
+                                        "description": "Text explaining in which current administrative unit the place is located, e.g., 'Landkreis Meißen / Distrikt Dresden / Bundesland Sachsen / Staat Deutschland'"
                                     },
                                     "affiliation-id": {
                                         "type": "string",
-                                        "description": "e.g. NUTS"
+                                        "description": "e.g. 'DED2E' (NUTS ID Landkreis Meißen)"
                                     }
                                 }
                             },

@@ -10,16 +10,21 @@
                     51.1613
                 ],
                 "type": "Point"
-            }
+            },
             "properties": {
                 "preferredName": {
                     "label": "Meißen",
                     "language": "de"
                 },
                 "currentAffiliation": {
-                    "country": "Germany",
-                    "state": "Saxony"
-                }
+                    "affiliation-id": "DED2E",
+                    "affiliation": "Landkreis Meißen / Distrikt Dresden / Bundesland Sachsen / Staat Deutschland"
+                },
+                "placeType": [
+                    {
+                        "label": "City"
+                    }
+                ]
             }
         }
     ]
