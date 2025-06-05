@@ -29,7 +29,7 @@
             attribution: "&copy; OpenStreetMap contributors"
         }).addTo(map);
 
-        fetch("../../graffiti.geojson")
+        fetch("../../graffiti/graffiti.geojson")
             .then(res => res.json())
             .then(data => {
                 L.geoJSON(data, {

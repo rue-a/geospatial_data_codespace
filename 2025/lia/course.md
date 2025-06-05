@@ -14,10 +14,14 @@ link: ./css/rue.css
 
 **@fontsize(24,@author)**, *@fontsize(24, SLUB Dresden)*
 
-<div style="margin-top: 100px">
+**Codespace öffnen:** https://github.com/rue-a/geospatial_data_codespace
+
+<div style="margin-top: 80px">
 </div>
 
 ![](fig/main2.png)
+
+*Abbildung: Geodetic Institute, Copenhagen & Reykjavík, 1934, DGA map, via Wikimedia Commons*
 
 <div class="bg-slide">
 
@@ -28,7 +32,7 @@ link: ./css/rue.css
 
 <figure style="float: right; width: 45%; margin-left: 40px; margin-bottom: 10px; text-align: center;">
   <img src="fig/pin.png" alt="Symbolbild Geodaten" style="width: 100%;">
-  <figcaption style="font-size: 90%; font-style: italic;">Abbildung: flaticon, CC BY-SA 4.0, via Wikimedia Commons
+  <figcaption style="font-size: 90%; font-style: italic;">*Abbildung: flaticon, CC BY-SA 4.0, via Wikimedia Commons*
 </figcaption>
 </figure>
 
