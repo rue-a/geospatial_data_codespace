@@ -30,7 +30,10 @@
                     }
                 ],
                 "nameVariants": [
-                    "Meissen"
+                    {
+                        "label": "Meissen",
+                        "language": "de"
+                    }
                 ]
             }
         }
