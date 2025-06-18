@@ -1,0 +1,862 @@
+{
+    "type": "FeatureCollection",
+    "conformsTo": [
+        "[ogc-json-fg-1-0.2:core]",
+        "[ogc-json-fg-1-0.2:types-schemas]"
+    ],
+    "coordRefSys": "https://www.opengis.net/def/crs/EPSG/0/4326",
+    "featureType": "Waypoint",
+    "featureSchema": "https://example.com/schema/waypoint",
+    "features": [
+        {
+            "id": "l4_01",
+            "properties": {
+                "title": "Mr. P.'s Farm",
+                "note": "Latrobes Party reached the last point on their travel into the cape colony at the farm of a Mr. P. The landdrost asked them to have a look at the place, which they did. After examining the farm and talking to the farmer himself they decided to having travelled far enough and therefore not to proceed any further. Also, all other places further to be investigated and proposed by the landdrost of Uitenhagen where either occupied or in Caffraria (Xhosa-Land) and therefore not inhabitable with Khoikhoi-Settlements. This last farm is only described as an hour away from Somerset Farm, following the mountain range and fording the Little Fish River twice. The position was estimated upon this description and the attached historical map.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 231",
+                    "https://archive.org/details/journalofvisitto00latr/page/230/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.49549,
+                    -32.72115
+                ]
+            }
+        },
+        {
+            "id": "l4_02",
+            "properties": {
+                "title": "Mr. Van Klerk's farm",
+                "note": "Latrobe and his fellows visited this farm after ending their exploration into the east. The farm is marked at Latrobes map as laying south of the union of Small Fish River and Brake River, which seem to not exist anymore today. An exact position is not given, therefore the marker's position is more of an estimation based on historical and recent maps.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 234",
+                    "https://archive.org/details/journalofvisitto00latr/page/234/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    null
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.735633737985722,
+                    -33.09606704545253
+                ]
+            }
+        },
+        {
+            "id": "l4_03",
+            "properties": {
+                "title": "Mr. Engelbrecht's Farm",
+                "note": "Latrobe's party reached the farm of a Mr. Engelbrecht on their way back towards the Suurberg mountain range. Latrobe himself does not further describe the place, but it is marked on the historical map attached to his journal. The position was estimated using this map and comparing it to a recent map. Another indicator to the position is the nearby summit called Engelbrecht se Kop, but still the actual location is rather a vague estimation.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 236",
+                    "https://archive.org/details/journalofvisitto00latr/page/236/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1005456/engelbrecht-se-kop.html",
+                    "https://www.wikidata.org/wiki/Q31505671"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.869078252858216,
+                    -33.277635494791504
+                ]
+            }
+        },
+        {
+            "id": "l4_04",
+            "properties": {
+                "title": "Zuurberg",
+                "note": "The travelers passed the Zuurberg on the same way they used on their outbound route. The position is still an estimation since there are multiple passes over the mountain range.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 237",
+                    "https://archive.org/details/journalofvisitto00latr/page/236/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.77950,
+                    -33.27597
+                ]
+            }
+        },
+        {
+            "id": "l4_05",
+            "properties": {
+                "title": "Ado's Drift on Zondag's Revier",
+                "note": "Latrobe's party splits into two groups. While Brother Stein and Sister Schmitt took the Khoikhoi to the Witte Revier Valley for them to have a look at the place, Latrobe proceeded further accompanied by Mr. Melville and the Khoikhoi Leonhard Paerl and Johannes. They set out to Uitenhagen and halted at Ado's Drift on Zondags Revier. The exact position is hard to estimate, but until today their remains a small settlement called Addo on Sondagsrivier or Sundays River, that might be named after that place. The position is therefore an optimistic estimation.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 239",
+                    "https://archive.org/details/journalofvisitto00latr/page/238/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/12718753/nomathamasanqa.html",
+                    "https://www.wikidata.org/wiki/Q4681358"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.676839267964425,
+                    -33.56635693729739
+                ]
+            }
+        },
+        {
+            "id": "l4_06",
+            "properties": {
+                "title": "Uitenhagen",
+                "note": "Latrobe and his fellows reached the settlement and its drosty on their outbound as well as on their return route. They met the landdrost Colonel Cuyler, who helped them with their further journey, Mr. Allen, the secretary of the Gouverneur at Cape Town and a German Gentleman Mr. Von Buchenrode who supported the group by providing meals and supplies on both visits. The former drosty still exists and houses the Drostdy Museum of Uitenhage or Kariega, as the city is called today. (Descriptions of the return bound are found on page 239).",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 203",
+                    "https://archive.org/details/journalofvisitto00latr/page/202/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/946877/kariega.html",
+                    "https://www.wikidata.org/wiki/Q1020192"
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-04-20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.404531612429604,
+                    -33.76940123467046
+                ]
+            }
+        },
+        {
+            "id": "l4_07",
+            "properties": {
+                "title": "Van Staades Revier",
+                "note": "Latrobes travel groupe passes the Van Stadens River on their return route to Kaffre Kraal and Klaarefonteyn, the farms of the Brothers Neukirch. Since the farms did not remain and the exact point of crossing the river is not mentioned, the position of the marker is an estimation.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 241",
+                    "https://archive.org/details/journalofvisitto00latr/page/241/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/944842/vanstadensrivier.html",
+                    "https://www.wikidata.org/wiki/Q4788251"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.19281,
+                    -33.91747
+                ]
+            }
+        },
+        {
+            "id": "l4_08",
+            "properties": {
+                "title": "Chamtoos Wagedrift on Klein Revier",
+                "note": "Latrobe and his fellow Mr. Melville reached this location after the rest of the travelers, because they made an extra halt at a farm of a Mr. Van Roy on the banks of the Lorie River or Loeriespruit, as it is called today. Since the farm is not marked, this is the next point that can be estimated upon the historical map attached to the journal.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 243",
+                    "https://archive.org/details/journalofvisitto00latr/page/242/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/942156/wagon-drift.html",
+                    "https://www.wikidata.org/wiki/Q3312383"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.86760,
+                    -33.82946
+                ]
+            }
+        },
+        {
+            "id": "l4_09",
+            "properties": {
+                "title": "Klein Revier Farm",
+                "note": "While passing the Chamtoose Revier Wagendrift, Latrobe, Brother Schmitt and the Khoikhoi Marcus made a short detour to a farm on Klein Revier recommended to them as a possibly fitting place for a new mission by the landdrost of Uitenhagen. Latrobe therefore feels the urge to at least have a look at it, although he describes that there is already a farmer applying for the land. He describes the position as 2 to 3 english miles up the river. Based on this description, the position of the former farm could be found.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 244",
+                    "https://archive.org/details/journalofvisitto00latr/page/244/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/990135/kleinrivier.html",
+                    null
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-04-24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.93912,
+                    -33.80138
+                ]
+            }
+        },
+        {
+            "id": "l4_10",
+            "properties": {
+                "title": "Chamtoos Wagedrift on Klein Revier",
+                "note": "Latrobe and his fellow Mr. Melville reached this location after the rest of the travelers, because they made an extra halt at a farm of a Mr. Van Roy on the banks of the Lorie River or Loeriespruit, as it is called today. Since the farm is not marked in recent maps, this is the next point that can be estimated upon the historical map attached to the journal.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 243",
+                    "https://archive.org/details/journalofvisitto00latr/page/242/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/942156/wagon-drift.html",
+                    "https://www.wikidata.org/wiki/Q3312383"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.86760,
+                    -33.82946
+                ]
+            }
+        },
+        {
+            "id": "l4_11",
+            "properties": {
+                "title": "Ausflucht",
+                "note": "Latrobe visits this farm after passing the Gamtoose River. The place is estimated upon the historical map attached to the journal. Main tether is the union of the rivers Wagebooms and Chamtoos marked in the map. Today the rivers a very likely the Gamtoose River and the Kouga River.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 245",
+                    "https://archive.org/details/journalofvisitto00latr/page/244/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/987592/kougarivier.html",
+                    "https://www.wikidata.org/wiki/Q4788044"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.62230687703208,
+                    -33.750676873453926
+                ]
+            }
+        },
+        {
+            "id": "l4_12",
+            "properties": {
+                "title": "Essenbosch",
+                "note": "Latrobe and his companions passed the Essenbosch farm as they did on their outbound route. They stayed only a few hours before proceeding. The position is estimated upon historical maps.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 246",
+                    "https://archive.org/details/journalofvisitto00latr/page/246/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1004989/essenbos.html",
+                    null
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-25",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.43013594569773,
+                    -33.96405220526824
+                ]
+            }
+        },
+        {
+            "id": "l4_13",
+            "properties": {
+                "title": "Jagersbosch",
+                "note": "Latrobe and his fellows visited the Jagersbosch Farm of Mr. Akkerman as they did on their outbound. They stayed a night, purchased new oxen and proceeded along the Kromm River as before. The position is an estimation made upon historical maps.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 247",
+                    "https://archive.org/details/journalofvisitto00latr/page/246/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/994269/jagersbos.html",
+                    "https://www.wikidata.org/wiki/Q31406724"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-26",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.199028651032013,
+                    -33.91422861373468
+                ]
+            }
+        },
+        {
+            "id": "l4_14",
+            "properties": {
+                "title": "Mr. Mey's Farm",
+                "note": "The travelers halted at the farmland belonging to Mr. Mey, both on their outbound and return routes. On their outbound here the party split to visit Mr. Mey and the farm Ellandsfonteyn in the close surroundings to get new oxen to proceed further. On the return they tried the same but could not get any new oxen. Comparing Latrobes map and a historical map of the same year, it shows that the farm has been called Miegunst. A small settlement of nearly the same name (Misgund) remains until today.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 185 (Description of the return route on Page 247 f.)",
+                    "https://archive.org/details/journalofvisitto00latr/page/184/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/975726/misgund.html",
+                    "https://www.wikidata.org/wiki/Q13035467"
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-04-27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.497235,
+                    -33.753996
+                ]
+            }
+        },
+        {
+            "id": "l4_15",
+            "properties": {
+                "title": "Ellandsfonteyn",
+                "note": "Latrobe and his fellows visited Mr. Piet Fereira's farm Ellandsfonteyn on their return route again. Today there are no remains of the farm, therefore the position was estimated upon historical maps.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 248",
+                    "https://archive.org/details/journalofvisitto00latr/page/248/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.452817757298828,
+                    -33.73062121912004
+                ]
+            }
+        },
+        {
+            "id": "l4_16",
+            "properties": {
+                "title": "Kliphübel",
+                "note": "The travelers visited the former farm of the veldcornet Stephen Fereira again on their return route. The exact place of the farm can only be roughly estimated using historical maps.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 249",
+                    "https://archive.org/details/journalofvisitto00latr/page/248/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.436369525726224,
+                    -33.74230705757729
+                ]
+            }
+        },
+        {
+            "id": "l4_17",
+            "properties": {
+                "title": "Wellgelegen",
+                "note": "The travelers briefly halted at the former farm for some tea and supplies before continuing their return journey. The exact location of the farm can only be roughly estimated using historical maps.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 252",
+                    "https://archive.org/details/journalofvisitto00latr/page/252/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/941152/welgelee.html",
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-04-28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.301112142192224,
+                    -33.730972190741284
+                ]
+            }
+        },
+        {
+            "id": "l4_18",
+            "properties": {
+                "title": "Mr. Zondag's farm at Avantur",
+                "note": "Latrobe and his fellows were warmly welcomed and treated with greatest hospitality, as Latrobe describes it. The settlement today called Avontuur still exists, as well as a property belonging to a family called Zondagh, that might be related to Mr. Zondag.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 253",
+                    "https://archive.org/details/journalofvisitto00latr/page/252/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1021875/avontuur.html",
+                    "https://www.wikidata.org/wiki/Q2894189"
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-04-29",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.165336365390313,
+                    -33.72951874010918
+                ]
+            }
+        },
+        {
+            "id": "l4_19",
+            "properties": {
+                "title": "Gaensekraal",
+                "note": "Latrobe and the fellow travelers spend a night on the farm Gaensekraal of the veldcornet Michael Rendsberg, where they were welcomed very hospitably. Although the farm did not remain until today, the position could be determined upon historical maps and a small stream called Gansekraalrivier or Gansrivier which still exists today.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 254",
+                    "https://archive.org/details/journalofvisitto00latr/page/254/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1002978/ganse-kraal.html",
+                    "https://www.wikidata.org/wiki/Q64704684"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-29",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.716828846305223,
+                    -33.774743745004585
+                ]
+            }
+        },
+        {
+            "id": "l4_20",
+            "properties": {
+                "title": "Eselsjagd River",
+                "note": "Latrobe and his traveling companions halted at the banks of the Eseljagd or Zebra Hunt River (today called Eseljagdrivier).The position of their halt was estimated upon historical maps and assumptions about the most likely route.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 255",
+                    "https://archive.org/details/journalofvisitto00latr/page/254/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1005073/eseljagrivier.html",
+                    "https://www.wikidata.org/wiki/Q64704754"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-04-30",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.5663003005881,
+                    -33.80416471660022
+                ]
+            }
+        },
+        {
+            "id": "l4_21",
+            "properties": {
+                "title": "Great Dorn River",
+                "note": "The travel party passed several waypoints described in a way that suggests that they were moving northward of George from east to west, passing several kloofs, likely parallel to the Olifants River, which was visible from time to time. Since nearly all waypoints were farms that do not exist anymore, the next position, that can be estimated, is the Great Dorn River or Groot-Doringrivier as it is called today. The position of their fording point was estimated roughly.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 256",
+                    "https://archive.org/details/journalofvisitto00latr/page/256/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/999554/groot-doringrivier.html",
+                    "https://www.wikidata.org/wiki/Q64704580"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-01",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.259039268588538,
+                    -33.81380671687096
+                ]
+            }
+        },
+        {
+            "id": "l4_22",
+            "properties": {
+                "title": "Groote Paerdekraal",
+                "note": "This farm of a Mr. Rutter was situated in the mountains towards the Attaquas Kloof, which today is likely called the Attakwaskloof Nature Reserve. Latrobe and his fellows stayed there on their return route. There is little to no way to mark the exact position of the former farm. A cautious estimation was made using the historical map attached to his Journal, a historical map of 1815 and recent maps. Still this point is one of the most vague estimations made mostly to ensure some kind of trace of the traveler's way.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 259",
+                    "https://archive.org/details/journalofvisitto00latr/page/258/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-03",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.206284787239213,
+                    -33.82289493147268
+                ]
+            }
+        },
+        {
+            "id": "l4_23",
+            "properties": {
+                "title": "Attaquas Kloof",
+                "note": "The group around Latrobe is moving through the Attaquas Kloof or Attakwaskloof Pass as it is called today. The pass is more of a tableland which takes several days to cross.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 261",
+                    "https://archive.org/details/journalofvisitto00latr/page/260/mode/2up"
+                ],
+                "closeMatch": [
+                    null,
+                    "https://www.wikidata.org/wiki/Q4818077"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-05-04",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.9832,
+                    -33.8425
+                ]
+            }
+        },
+        {
+            "id": "l4_24",
+            "properties": {
+                "title": "Haagekraal",
+                "note": "Latrobe and his companions visited a farm called Haagekraal in the Attaqua area. Today the farm is very likely called Hagelkraal. Latrobe describes it as “watered by a large brook” which most likely refers to the Haelkraalrivier.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 261",
+                    "https://archive.org/details/journalofvisitto00latr/page/260/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/998266/hagelkraal.html",
+                    null
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-05-04",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.93338,
+                    -33.96868
+                ]
+            }
+        },
+        {
+            "id": "l4_25",
+            "properties": {
+                "title": "Hunykliff Kloof",
+                "note": "Latrobe and his fellows reached a farm called Hunykliff Kloof belonging to a german called Mr. Krieg, after passing the Attakwaskloof. The farm is likely the one remaining as Honing Klips Koolf. The position fits the mark in the historical map attached to the journal.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 262",
+                    "https://archive.org/details/journalofvisitto00latr/page/262/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/995708/honing-klips-kloof.html",
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-04",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.85418,
+                    -34.04001
+                ]
+            }
+        },
+        {
+            "id": "l4_26",
+            "properties": {
+                "title": "Gowritz River",
+                "note": "Latrobes groupe passes the Gowritz River or Gouritsrivier after visiting Hunykliff Kloof. The exact position is not described, therefore the marker is set to an estimated point of crossing the river.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 262",
+                    "https://archive.org/details/journalofvisitto00latr/page/262/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1000652/gouritz.html",
+                    "https://www.wikidata.org/wiki/Q3642203"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-04",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.7177431247737,
+                    -34.07740575362554
+                ]
+            }
+        },
+        {
+            "id": "l4_27",
+            "properties": {
+                "title": "Duivenhoeks Revier",
+                "note": "Latrobes group moved westwards from the Gowritz River towards the Duivenhoeks Revier or Duiwenhoksrivier passing several farms that did not remain until today. Therefore, an exact position, where the travelers crossed the river can only be vaguely estimated upon historical maps, mainly the map attached to the journal.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 265",
+                    "https://archive.org/details/journalofvisitto00latr/page/264/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1007502/duiwenhoksrivier.html",
+                    "https://www.wikidata.org/wiki/Q5312674"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-06",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.858967600795108,
+                    -33.99128477811088
+                ]
+            }
+        },
+        {
+            "id": "l4_28",
+            "properties": {
+                "title": "Bueffeljagd's Revier",
+                "note": "The travelers turned to Mr. Buissini's farm on Bueffeljagd' revier or Buffeljagsrivier, as it is called today. Since there are no remains of the former farm, the position was estimated upon the historical map attached to the journal.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 266",
+                    "https://archive.org/details/journalofvisitto00latr/page/266/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1015226/buffeljagsrivier.html",
+                    "https://www.wikidata.org/wiki/Q4787901"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-05-07",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.534633328562357,
+                    -34.045657136259685
+                ]
+            }
+        },
+        {
+            "id": "l4_29",
+            "properties": {
+                "title": "Zwellendam",
+                "note": "After fording the Buffeljagsrivier at lower water level, the travelers reached Zwellendam (Swellendam) at noon, where they stayed at the drosty again. They then took some tours at the settlement, visiting important people and buildings.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 267",
+                    "https://archive.org/details/journalofvisitto00latr/page/266/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/950709/swellendam.html",
+                    "https://www.wikidata.org/wiki/Q1023257"
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-05-08",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.44692131062715,
+                    -34.02224445372528
+                ]
+            }
+        },
+        {
+            "id": "l4_30",
+            "properties": {
+                "title": "Breede River",
+                "note": "The travelers crossed the Breede River in the forenoon, having some trouble, because it started raining and not only the water level rose, but the way to the banks of the river became slippery. Using a ferry for their wagons and letting the oxen swim freely, they managed to cross the Breede River again. Since no exact place of said ferry is mentioned, the location is an estimation based upon the historical map attached to the journal.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 268",
+                    "https://archive.org/details/journalofvisitto00latr/page/268/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/1015748/bree.html",
+                    "https://www.wikidata.org/wiki/Q904992"
+                ],
+                "certainty": "less-certain"
+            },
+            "time": "1816-05-09",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.289159465428938,
+                    -34.080215898209566
+                ]
+            }
+        },
+        {
+            "id": "l4_31",
+            "properties": {
+                "title": "Hot Outspann",
+                "note": "As on march 7th, 1816, the travelers passed the Storm's Valley, but proceeded further to reach the farm of Mr. Van Helsland on Boksrivier soon. The place is referred to only by its nickname Hot Outspann.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 269",
+                    "https://archive.org/details/journalofvisitto00latr/page/268/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/951902/stormsvlei.html",
+                    "https://www.wikidata.org/wiki/Q13036112"
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-05-10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.09329,
+                    -34.07920
+                ]
+            }
+        },
+        {
+            "id": "l4_32",
+            "properties": {
+                "title": "Mr. Van Helsland's Farm",
+                "note": "On their way back to Gnadenthal, the group again halted on the farm of Mister Van Helsland on the Bock River. The farm's position is not described any further, therefore the position is more of an educated guess, since the farm is not existing anymore today.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 269",
+                    "https://archive.org/details/journalofvisitto00latr/page/268/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/3369727/bokrivier.html",
+                    "https://www.wikidata.org/wiki/Q56460587"
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.85899,
+                    -34.12118
+                ]
+            }
+        },
+        {
+            "id": "l4_33",
+            "properties": {
+                "title": "Hartebeestkraal",
+                "note": "Last halt before reaching the end of Latrobes journey to the east was a farm called Hartebeestkraal. Its exact position is not givin, theirfore an estimation based on the travle route and a mountain called Hartebeest in the nearby was made. This marker therefore stayes rather vague.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 268",
+                    "https://archive.org/details/journalofvisitto00latr/page/268/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/3366992/hartbeesberg.html",
+                    null
+                ],
+                "certainty": "uncertain"
+            },
+            "time": "1816-05-11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.79608000428119,
+                    -34.103835515156966
+                ]
+            }
+        },
+        {
+            "id": "l4_34",
+            "properties": {
+                "title": "Gnadenthal",
+                "note": "Ending point of C. I. Latrobes easternmost excursion throughout the Cape Colony of 1816 nearly to the borders of the former so-called Kaffraria. Latrobe returned 1 Month and 6 Days after he set out for the journey.",
+                "role": "visited",
+                "wasDerivedFrom": [
+                    "Journal of a Visit to South Africa, in 1815, and 1816. with some Account of the missionary Settlements of the United Bretheren, near the Cape of Good Hope. - Page 270",
+                    "https://archive.org/details/journalofvisitto00latr/page/270/mode/2up"
+                ],
+                "closeMatch": [
+                    "https://www.geonames.org/3367707/genadendal.html",
+                    "https://www.wikidata.org/wiki/Q114720753"
+                ],
+                "certainty": "certain"
+            },
+            "time": "1816-05-11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.557689460957832,
+                    -34.03437363975237
+                ]
+            }
+        }
+    ]
+}

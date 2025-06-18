@@ -331,10 +331,14 @@ Gehen Sie wie folgt vor:
 }
 ```
 
-3. Tippen Sie Strg+Shift+P und dann "geo" in das erscheindene Textfeld. Wählen Sie Priview GeoJSON um sich Ihr GeoJSON auf einer Karte anzuschauen. 
-4. Wenn sich möchten fuellen Sie die [Umfrage vom ISGV](https://forms.cloud.microsoft/pages/responsepage.aspx?id=apeF6xEBKkC_w59XifO4X0LFZlpATcxOiuPLhi2VPyxUOFJDNThKNVo0S0k3R0k3TVVXSkhDMjRWMyQlQCN0PWcu&route=shorturl) aus.
+3. Füllen Sie die Datei mit den Orten der von Ihnen ausgewählten Reiseroute.
+4. Tippen Sie Strg+Shift+P und dann "geo" in das erscheindene Textfeld. Wählen Sie Preview GeoJSON um sich Ihre GeoJSON-Datei auf einer Karte anzuschauen. 
+5. Wenn sich möchten füllen Sie die [Umfrage vom ISGV](https://forms.cloud.microsoft/pages/responsepage.aspx?id=apeF6xEBKkC_w59XifO4X0LFZlpATcxOiuPLhi2VPyxUOFJDNThKNVo0S0k3R0k3TVVXSkhDMjRWMyQlQCN0PWcu&route=shorturl) aus.
 </div>
 <div style="flex: 1;">
 ![](fig/p11.png)
 </div>
 </div>
+
+# (Web)Karten
+
