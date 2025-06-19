@@ -7,6 +7,29 @@ link: ./css/rue.css
 
 @color: <span style="color: @0">@1</span>
 @fontsize: <span style="font-size: @0px">@1</span>
+
+script:   https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js
+@onload
+mermaid.initialize({ startOnLoad: false });
+@end
+
+@mermaid: @mermaid_(@uid,```@0```)
+
+@mermaid_
+<script run-once="true" modify="false" style="display:block; background: white">
+async function draw () {
+    const graphDefinition = `@1`;
+    const { svg } = await mermaid.render('graphDiv_@0', graphDefinition);
+    send.lia("HTML: "+svg);
+    send.lia("LIA: stop")
+};
+
+draw()
+"LIA: wait"
+</script>
+@end
+
+
 -->
 
 
@@ -279,13 +302,64 @@ data-marker="
 +-----------+------------------+------------------+---------+------------------+---------------------------------------+
 ```
 
-
-
 **Tabellen `csv`/`xlxs`/...**
 
 - kein eigentliches Geodatenformat, wird aber häufig verwendet
 - nur für Punktdaten mit flachen Attributen geeignet
 - sehr einfach zu verwenden
+
+## GeoJSON
+
+```mermaid @mermaid
+classDiagram
+    class FeatureCollection {
+        +string type = "FeatureCollection"
+        +Feature[] features
+    }
+
+    class Feature {
+        +string type = "Feature"
+        +Geometry geometry
+        +Properties properties
+        +string|number id
+    }
+
+    class Geometry {
+        <<abstract>>
+        +string type
+        +array coordinates
+    }
+
+    class Point {
+        +string type = "Point"
+        +number[2+] coordinates
+    }
+
+    class LineString {
+        +string type = "LineString"
+        +number[2+][2] coordinates
+    }
+
+    class Polygon {
+        +string type = "Polygon"
+        +number[4+][2][] coordinates
+    }
+
+    class Properties {
+        +string name
+        +string category
+        +number value
+        +any other fields...
+    }
+
+    FeatureCollection --> Feature : has 0..N
+    Feature --> Geometry : has 1
+    Feature --> Properties : has 0..N
+    Geometry <|-- Point
+    Geometry <|-- LineString
+    Geometry <|-- Polygon
+```
+
 
 
 # Zusammenfassung
