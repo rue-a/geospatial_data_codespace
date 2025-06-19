@@ -339,6 +339,3 @@ Gehen Sie wie folgt vor:
 ![](fig/p11.png)
 </div>
 </div>
-
-# (Web)Karten
-

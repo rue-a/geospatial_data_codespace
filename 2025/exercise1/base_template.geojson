@@ -1,8 +1,0 @@
-{
-    "$schema": "../schema/isgv.schema.json",
-    "type": "FeatureCollection",
-    "features": [
-        {},
-        {}
-    ]
-}
