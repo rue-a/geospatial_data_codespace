@@ -1,4 +1,4 @@
-geopandas==0.12.2
+geopandas==1.1.0
 shapely==2.0.2
 folium==0.14.0
 matplotlib==3.6.3
