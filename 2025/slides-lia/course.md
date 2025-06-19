@@ -310,6 +310,10 @@ data-marker="
 
 ## GeoJSON
 
+GeoJSON Beispielprojekt: https://stabine.github.io/latrobe/
+
+**GeoJSON Struktur**
+
 ```mermaid @mermaid
 classDiagram
     class FeatureCollection {
