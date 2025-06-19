@@ -18,7 +18,8 @@
                 "mechatroner.rainbow-csv",
                 "janisdd.vscode-edit-csv",
                 "ban.spellright",
-                "swallow.geojson-io-for-vscode"
+                "swallow.geojson-io-for-vscode",
+                "ritwickdey.LiveServer"
             ],
             "settings": {}
         }
